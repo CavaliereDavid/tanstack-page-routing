@@ -146,6 +146,7 @@ const SimpleTable: React.FC = () => (
         columns={columns}
         dataSource={data}
         onChange={onChange}
+        style={{ height: '100%' }}
       />
     </div>
   </>

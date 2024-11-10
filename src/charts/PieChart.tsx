@@ -46,7 +46,7 @@ const PieChart = () => {
 
   return (
     <div className="App">
-      <EChartsReact option={chartOptions} />
+      <EChartsReact style={{width: 'auto', height: '400px', display: 'flex', justifyContent: 'center'}} option={chartOptions} />
     </div>
   );
 };

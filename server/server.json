@@ -1,0 +1,19 @@
+{
+    "revenueData": {
+        "2024": {
+            "total": "€1.000K",
+            "symbol": "↑",
+            "percentage": "+10%"
+        },
+        "2023": {
+            "total": "€900,2K",
+            "symbol": "↑",
+            "percentage": "+5%"
+        },
+        "2022": {
+            "total": "€850K",
+            "symbol": "↓",
+            "percentage": "-2%"
+        }
+    }
+}

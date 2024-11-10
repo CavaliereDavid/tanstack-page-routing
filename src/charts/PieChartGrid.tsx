@@ -20,3 +20,5 @@ const PieChartGrid = () => {
 };
 
 export default PieChartGrid;
+
+// non più chiamato

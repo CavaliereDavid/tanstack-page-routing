@@ -24,7 +24,6 @@ const HeaderNav: React.FC<HeaderNavProps> = ({ items }) => {
       </div>
       <Menu
         mode="horizontal"
-        defaultSelectedKeys={["1"]}
         items={items}
         style={{ flex: 1, minWidth: 0, marginLeft: 100 }}
         theme="dark"

@@ -1,0 +1,35 @@
+.revenue-overview {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+}
+
+.revenue-component {
+    padding: 10px;
+}
+
+.revenue-component:nth-child(2) {
+    background-color: rgba(235, 235, 235, 0.5);
+}
+
+.revenue-component {
+    border-radius: 20px;
+}
+
+.card-title {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) { 
+    .revenue-overview {
+        display: block;
+    }
+
+    .revenue-component:nth-child(2) {
+        background-color: transparent;
+    }
+
+    .card-title {
+        display: block;
+    }
+}
